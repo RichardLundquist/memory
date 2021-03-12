@@ -1,11 +1,13 @@
 ![Alt text](scrn.png)
 
-A game of pairs, written for the browser. 
+## A game of pairs, written for the browser. 
+
+***
 
 Steps: 
 
-1. npm i 
+#### 1. npm i 
 
-2. npm run start 
+#### 2. npm run start 
 
-3. Enjoy
+#### 3. Enjoy
