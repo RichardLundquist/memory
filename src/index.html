@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <!-- <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_options.css"> -->
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="gradient_dashboard">
+            <div class="gradient_dashboard_txt_container">
+                <div class="moves counter_container">
+                    <p>Moves</p>
+                    <p class="moves_counter counter_output">0</p>
+                </div>
+                <!-- <div class="moves counter_container">
+                    <p>Pairs</p>
+                    <p class="click_counter counter_output">0/24</p>
+                </div> -->
+                <div class="time counter_container">
+                    <p>Time</p>
+                    <p class="counter_output">
+                        <span class="time_counter">00:00</span>
+                    </p>
+                </div>
+                <div class="accuracy counter_container">
+                    <p>Accuracy</p>
+                    <p class="accuracy_counter counter_output">0%</p>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+
+        <div class="grid_container"></div>
+
+
+        <div class="btm_menu board_btm_menu">
+            <div class="btm_menu_btn_container">
+                <div class="restart btn"><img class="svg" src="img/refresh-outline.svg" alt=""></div>
+                <div class="settings btn"><img src="img/settings-2-outline.svg" alt=""></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- OPTIONS -->
+    <div class="options_overlay">
+
+        <div class="options_container">
+
+            <!--
+            <div class="close_btn_wrapper">
+                <img src="assets/x.svg" class="close_btn" alt="">
+            </div>
+            -->
+
+
+
+            <div class="options_title_wrapper">
+                <h4 class="options_title">
+                    Options
+                </h4>
+            </div>
+
+
+            <ul class="options_list">
+                <li>
+                    <div class="options_moves_container options_category">
+                        <p>moves</p>
+                        <div class="toggle_container">
+                            <div class="toggle">
+                                <label class="switch">
+                                    <input class="moves checkbox" type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="options_timer_container options_category">
+                        <p>timer</p>
+                        <div class="toggle_container">
+                            <div class="toggle">
+                                <label class="switch">
+                                    <input class="timer checkbox" type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="options_accuracy_container options_category">
+                        <p>accuracy</p>
+                        <div class="toggle_container">
+                            <div class="toggle">
+                                <label class="switch">
+                                    <input class="accuracy checkbox" type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="options_category">
+                        <p>amount of cards</p>
+                        <div class="cardAmount_container">
+                            <p class="cardAmount" id="cardAmount_12">12</p>
+                            <p class="cardAmount" id="cardAmount_18">18</p>
+                            <!--<p class="cardAmount" id="cardAmount_24">24</p>-->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="line"></div>
+            <p class="options_descriptions">Memory, pairs, pelmanism is meant to expand the mental powers in all directions.
+
+                This instance made by Richard Lundquist </p>
+        </div>
+        <div class="btm_menu options_btm_menu">
+            <div class="btm_menu_btn_container">
+                <div class="restart btn">
+                    <img class="svg" src="img/refresh-outline_w.svg" alt="">
+                </div>
+                <div class="settings btn close_btn_wrapper">
+                    <img src="img/x.svg" id="close_btn" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="winner_overlay">
+        <div class="winner_container">
+            <h1 class="win_title">You paired all the cards!</h1>
+            <div class="winner_stats_container">
+                <ul>
+                    <li><p>moves</p><p class="win_output moves">0</p></li>
+                    <li><p>time</p><p class="win_output time">0</p></li>
+                    <li><p>accuracy</p><p class="win_output accuracy">0</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btm_menu options_btm_menu">
+            <div class="btm_menu_btn_container">
+                <div class="restart btn anim">
+                    <img class="svg" src="img/refresh-outline_w.svg" alt="">
+                </div>
+                <div class="settings btn close_btn_wrapper">
+                    <img src="img/x.svg" id="close_btn" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
