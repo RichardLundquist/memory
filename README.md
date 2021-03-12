@@ -2,8 +2,6 @@
 
 ## A game of pairs, written for the browser. 
 
-***
-
 Steps: 
 
 #### 1. npm i 
